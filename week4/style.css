@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/69/90/fYsSCl.jpg);
+    background-size: cover;
+    font-family: 'Redressed', cursive;
+}
+.title
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0 20px;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 20 px #36e1ff;
+}
+.title:after
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index:-1;
+    color: #36e1ff;
+    filter: blur(15px);
+}
+.title:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4fdcff;
+    z-index:-2;
+    opacity: 0.5;
+    filter: blur(40px);
+}
+
+#leftEye 
+{
+    border-width: 200px;
+    background: #282d42;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    width: 120px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #d8dee0;
+}
+#leftEye:hover 
+{
+    background-position: center;
+    background-image: url('https://i.ytimg.com/vi/YWXio_Jra9s/maxresdefault.jpg');
+    background-size: 280% 120%;
+}
+#highlightL
+{
+    background: #ffffff;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 10%;
+    left: 40%;
+    border-radius: 50%;
+}
+#rightEye
+{
+    border-width: 200px;
+    background: #282d42;
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    width: 120px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #d8dee0;
+}
+#rightEye:hover 
+{
+    background-position: center;
+    background-image: url('https://c.tenor.com/_zmVwOGUvIoAAAAC/sonic-frontiers.gif');
+    background-size: 280% 120%;
+}
+#highlightR
+{
+    background: #ffffff;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 10%;
+    left: 40%;
+    border-radius: 50%;
+}
+#nose 
+{
+    position: relative;
+    top: 45%;
+    left: 46%;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid whitesmoke;
+    border-right: 50px solid transparent;
+}
+#mouth 
+{
+    position: relative;
+    top: 60%;
+    left: 38%;
+    width: 300px;
+    height: 100px;
+    background: whitesmoke;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 20px solid rgb(218, 137, 137);
+}
+#mouth:hover 
+{
+    background-position: center;
+    background-image: url('https://www.seekpng.com/png/full/48-486516_contact-information-plate-of-caribbean-food.png');
+    background-size: 80% 120%;
+}
+#cheekL
+{
+    background: transparent;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    top: 16%;
+    left: 23%;
+}
+#cheekL:hover 
+{
+    background-position: center;
+    background-image: url('https://static.wikia.nocookie.net/disney/images/d/d0/Kingdom_Hearts_utilized_logo.png');
+    background-size: 100% 100%;
+}
+#cheekR
+{
+    background: transparent;
+    position: relative;
+    width: 250px;
+    height: 90px;
+    top: 0%;
+    left: 60%;
+}
+#cheekR:hover 
+{
+    background-position: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/66/Sonic_the_Movie_Logo.png');
+    background-size: 100% 100%;
+}
