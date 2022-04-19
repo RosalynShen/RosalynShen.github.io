@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+*
+{
+    margin: 3; 
+    padding: 3; 
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 80vh; 
+}
+
+.bimage {
+    position: absolute;
+    top: -350px;
+    width: 100vw;
+    z-index: 0;
+    filter: blur(6px);
+  }
+  
+  .table {
+    position: absolute;
+    top: -170px;
+    width: 100vw;
+    z-index: 0;
+  }
+  .board {
+    position: absolute;
+    top: -40px;
+    left: 765px;
+    width: 680px;
+    z-index: 0;
+  }
+
+.container{
+    margin: 10vh; 
+    top: 10px;  
+}
+
+h1{
+    color: beige;
+}
+/*basic cup container*/
+.cup{
+    position: relative; 
+    left: -250px;
+    width: 250px; 
+    height: 430px; 
+    border: 2px solid;
+    border-color: rgb(220,220,220); 
+    background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(230,230,230,0) 40%, rgba(220,220,220,1) 100%);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    z-index: 3;
+}
+
+#drink{
+    left: -570px;
+    top: -60px;
+    position: absolute; 
+    margin: 16px;
+    width: 220px; 
+    height: 380px; 
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+
+}
+
+#I30{
+    position:absolute;
+    width: 300px;
+    top: -280px;
+    left: -610px;
+    opacity: 60%;
+
+}
+#I50{
+    position:absolute;
+    width: 300px;
+    top: -195px;
+    left: -615px;
+    opacity: 60%;
+}
+#I{
+    position:absolute;
+    width: 300px;
+    top: -100px;
+    left: -600px;
+    opacity: 60%;
+}
+
+#cream{
+    position:absolute;
+    width: 245px;
+    top: -320px;
+    left: -565px;
+}
+
+#bubble{
+    position:absolute;
+    width: 275px;
+    top: 25px;
+    left: -597px;
+}
+#jelly{
+    position:absolute;
+    width: 280px;
+    top: 25px;
+    left: -594px;
+}
+#p1{
+    position:absolute;
+    width: 70px;
+    top: 320px;
+    left: 475px;
+    z-index: 4;
+}
+#p2{
+    position:absolute;
+    width: 70px;
+    top: 320px;
+    left: 475px;
+    z-index: 4;
+}
+#p3{
+    position:absolute;
+    width: 70px;
+    top: 320px;
+    left: 475px;
+    z-index: 4;
+}
+#p4{
+    position:absolute;
+    width: 70px;
+    top: 320px;
+    left: 475px;
+    z-index: 4;
+}
+.customize{
+    position: absolute;
+    top: 270px;
+    left: 950px;
+
+}
+
+
+
+/* change the heigth and color when button is clicked? 
+    bottom: 200px;
+    position: absolute; 
+    margin: 16px;
+    width: 220px; 
+    height: 380px; 
+    background: rgb(79, 53, 27);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;*/
+
+/* 
+div{
+    text-align: center;
+}
+
+#cup{
+    position: absolute;
+    overflow: hidden; 
+    margin: 0; 
+    top: 120px; 
+    border-radius: 70px 50px; 
+    background-color: gray; 
+    width: 20vw; 
+    height: 70vh; 
+    opacity: 40%;
+}
+
+#cup:before{
+    position: absolute;
+    left: 0;
+    top: 100px; 
+    border-radius: 50px 25px; 
+    background-color: gray; 
+    opacity: 50%;
+}
+
+#cup:after{
+    position: absolute;
+    left: 0; 
+    top: 120px;
+    border-radius: 50px 25px; 
+    background-color: gray; 
+    opacity: 50%;
+}
+
+ */
